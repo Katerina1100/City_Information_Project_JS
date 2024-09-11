@@ -1,0 +1,24 @@
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formContainer{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+#loginForm , #registerForm{
+    background-color: rgb(151, 127, 155);
+    opacity: 0.9;
+    border-radius: 20px;
+    padding: 30px;
+    
+}
+#loginForm:hover , #registerForm:hover{
+    opacity: 1;
+}
